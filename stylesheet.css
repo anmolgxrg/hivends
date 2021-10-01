@@ -81,14 +81,19 @@ font-family:'Questrial', sans-serif;;
 
 .logo {
 	width: 30%;
-	margin: 5px 0 0 50px;
+	margin: 35px 0 0 50px;
 	float: left;
+}
+
+.qq {
+	font-weight: 100;
+	color: #4d4d4d;
 }
 
 .navmenu{
 	width:60%;
-	float: right;
-	margin: 48px 0 0 0;
+	float: left;
+	margin: 57px -255px 0 228px;
 }
 
 .navmenu ul{
@@ -128,7 +133,7 @@ font-family:'Questrial', sans-serif;;
 .banrit {
   width:50%;
    float:left;
-   margin: 200px 0 0 20px;
+   margin: 180px 0 0 40px;
    	background-color: #F4F9F8;
 }
 
@@ -153,6 +158,12 @@ font-family:'Questrial', sans-serif;;
    margin: 105px 0 0 50px;
 }
 
+.b1rh1 {
+	font-size: 32;
+    line-height: 1.2;
+	font-weight: bold;
+}
+
 .bod2img {
   width:40%;
    float:left;
@@ -173,9 +184,17 @@ font-family:'Questrial', sans-serif;;
 	width:30%; 
 } 
 
+img {
+	max-width: 100%;
+}
+
+hr {
+	width: 100%;
+}
 
 .anmol1 {
 	padding: 0 0 0 170px;
+	background-video: url('images/ftrvideo.mp4');
 }
 
 .bodtimg {
@@ -313,11 +332,23 @@ q {font-style: italic;}
 .btn1 {
 	background-color: red;
 	color: white;
-	padding: 12px 12px 12px 12px;
+    padding: 22px 22px 22px 22px;
+	font-size: 10px;
 	border: none;
+}
+.btn2 {
+	background-color: none;
+	color: grey;
+	padding: 20px 20px 20px 20px;
+    border: 2px solid red;
+}
+
+
+.bh1 {
+	font-size: 50px;
+	color: #4d4d4d;
 }
 
 .fot {
 	background-color: white;
 }
-
